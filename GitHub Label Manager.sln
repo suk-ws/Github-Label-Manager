@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SukWs.GitHub_Label_Manager.Core", "SukWs.GitHub_Label_Manager.Core\SukWs.GitHub_Label_Manager.Core.csproj", "{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABD3FC6B-E4FF-4BC0-BF8E-B7CFF4AFCB4A}
+	EndGlobalSection
+EndGlobal
