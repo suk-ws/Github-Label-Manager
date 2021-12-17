@@ -1,9 +1,14 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SukWs.GitHub_Label_Manager.Core", "SukWs.GitHub_Label_Manager.Core\SukWs.GitHub_Label_Manager.Core.csproj", "{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SukWs.GitHub_Label_Manager.Core", "SukWs.GitHub_Label_Manager.Core\SukWs.GitHub_Label_Manager.Core.csproj", "{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SukWs.GitHub_Label_Manager.CLI", "SukWs.GitHub_Label_Manager.CLI\SukWs.GitHub_Label_Manager.CLI.csproj", "{0B86FC24-F9B3-4425-A7FC-1A019640B13C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14} = {0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B075B1E-F7F2-449A-BA0E-66EC8C75AB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B86FC24-F9B3-4425-A7FC-1A019640B13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B86FC24-F9B3-4425-A7FC-1A019640B13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B86FC24-F9B3-4425-A7FC-1A019640B13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B86FC24-F9B3-4425-A7FC-1A019640B13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
